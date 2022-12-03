@@ -22,3 +22,45 @@ div.container {
     padding: 15px 3%;
     border-radius: 10px;
 }
+
+
+div.container h1 {
+    text-align: center;
+}
+
+div.container input {
+    width: 100%;
+    max-width: 39px;
+    padding: 3px;
+    font-size: 17px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+div.tabuada {
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    margin: 15px 0px
+}
+
+div.container button {
+    padding: 9px 8px;
+    line-height: 19px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 0;
+    color: #000000;
+    background-color: rgba(137, 43, 226, 0.445);
+    cursor: pointer;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
