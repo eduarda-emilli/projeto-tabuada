@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada de Mutiplicação</title>
-    <link rel="shortcut icon" href="/streamlinehq-calculator-app-money-payments-finance-48.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@700&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Modelo de Exercício</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Tabuada do <input type="number"></h1>
-        <div class="tabuada"></div>
-        <button>Calcular</button>
-    </div>
-    <script src="tabuada.js"></script>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section id="container">
+        <div>
+            <p>Número <input type="number" name="number" id="txtn">
+            <input type="button" value="Calcule" id="button" onclick="tabuada()"></p>
+        </div>
+        <div id="res">
+           
+        </div>
+    </section>
+    <footer>
+        <p><a href="https://github.com/eduarda-emilli">&copy; Eduarda Emilli</a></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
