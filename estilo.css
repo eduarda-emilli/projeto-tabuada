@@ -23,6 +23,10 @@ section {
     text-align: center;
 }
 
+p {
+    padding: 10px;
+}
+
 #txtn {
     width: 100%;
     max-width: 27px;
